@@ -40,7 +40,7 @@
 .content h1{
   font-size: 3rem;
   font-weight: 100;
-  color: #345e7d;
+  color: #D5889E;
   margin-top: 60px;
   margin-bottom: 30px;
   letter-spacing: 2px;
@@ -86,7 +86,7 @@ nav ul {
 
 nav ul li a {
   text-decoration: none;
-  color: #345e7d; 
+  color: #D5889E; 
   font-size: 0.8em;
   transition: all 0.3s ease;
   border: 2px solid #D5889E;
@@ -108,7 +108,7 @@ nav ul li a:hover {
 h3 {
   font-size: 20px;
   font-weight: bold;
-  color: #345e7d;
+  color: #D5889E;
 }
 
 br {
