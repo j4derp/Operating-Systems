@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
- <link rel="stylesheet" href="linux.html">
+ <link rel="stylesheet" href="linux.css">
  <meta charset="utf-8">
  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
  <link href="https://fonts.googleapis.com/css?family=Ruge+Boogie:regular" rel="stylesheet" />
@@ -19,7 +19,7 @@
          <nav>
              <ul>
                  <li><a href="index.html">Home</a></li>
-                 <li><a href="main.html">Components</a></li>
+                 <li><a href="main.html">Main</a></li>
                  <li><a href="Summary.html">Summary</a></li>
              </ul>
          </nav>
@@ -38,46 +38,60 @@
         </a>
      </div>
       <div class="component-content">
-            <h1>Video and Expansion Cards</h1>
+            <h1>Windows</h1>
             <div class="info-section">
-                <h2> Video and Expansion Types</h2>
-<p>Expansion cards expand a computer's functionality or increase its performance. Expansion cards install into the expansion slot on a motherboard. Expansion bus standards define communication specifications as well as physical characteristics of expansion cards and slots.</p>   
-             <p>Video cards process graphical information for output to an external display. The quality and speed have increased dramatically with PC gaming and cryptocurrency mining. A device called a capture card is growing in use to support streaming and the recording games and videos.</p>
-             <img src="expansion.jpeg" alt="expansion cards" class="section-image">
+                <h2> Introduction</h2>
+<p>Linux is a major player in computer networking and plays a vital role in servers, desktops, and even mobile devices. Understanding the origin of Linux and how it evolved to its prominent place in the industry is an important part of IT training.</p>          
                  <div class="feature-list">
-                <h2>Peripheral Component Interconnect</h2>            
-<p>PCI was developed to replace the obsolete Industry Standard Architecture (ISA) and (Video Electronic Standards Association) VESA bus standards. PCI:</p>             
+                <h2>Linux history</h2>         
+<p>In 1983 Richard Stallman announced the GNU (a recursive acronym for GNU's Not Unix!) project. 
+ The objective of the GNU project was a cooperative development of an operating system.
+ The Linux operating system had its start in 1991 when Linus Torvalds, as a graduate student at Finland's University of Helsinki,
+ began a project that later became the Linux kernel. Linus based his version of Linux on a Unix-like system named MINIX, which was released by Andrew S. Tanenbaum. 
+ Linux version 0.02 was released in October of 1991 and consisted of the Linux kernel and three basic utilities:</p>          
                   <ul>
-<li>Is processor independent, meaning the CPU and PCI bus can process concurrently.</li>
-<li>Supports plug-and-play, meaning installed devices are detected and configured automatically.</li>
-<li>Is commonly used by devices such as sound cards, modems, network cards, and storage device controllers.</li>
-<li>Can run at 33 MHz and transfer data at 133 MBps or run at 66 MHz and transfer data at 266 MBps.</li>
+<li>A Bash shell providing a command line interface.</li>
+<li>An update utility used for flushing the file system buffers.</li>
+<li>A GCC (GNU Compiler Collection) that allowed an individual to compile programs.</li>
               </ul>
-       <h2>Legacy buses</h2>
-                  <p>	Buses that have been replaced by newer types are considered legacy buses. Legacy buses are rarely used and include the following:</p>
+                  
+       <h2>Workgroup</h2>
+                 <p>Workgroup accounts are for small networks on a local network. How workgroups work:</p>
                   <ul>
-<li>AGP is a dedicated bus type used by dedicated video cards.</li>
-<li>Audio/modem riser (AMR) is a riser card that attaches to the motherboard and allows additional cards (called daughter cards) to be installed.</li>
-<li>Communications network riser (CNR) is a riser card slot that allows for installing network, sound, or modem functions.</li>
-                   
+<li>All computers are peers to each other. There isn't a central administrator.</li>
+<li>Each device has its own storage.</li>
+<li>The user manages the device.</li>
+<li>A user must have an account on the device to log on to it.</li>
+<li>Workgroups allow users to share files, printers, and local network resources.</li>
+<li>Workgroups usually consist of twenty or fewer computers.</li>  
                   </ul>
-                 <h2>Intergrated and Dedicated Video Cards</h2>
-    <p>You can implement video cards as a dedicated expansion board or integrated with other components.</p>
-        <p>Integrated video cards:</p>
+<P>The source code for the Linux operating system was shared as freeware on the internet. Others were encouraged to enhance it and make it better. Linux became a worldwide collaborative development project with no secrecy or tightly guarded copyrights. Access to the source code was open to anyone who wanted it. This collaborative development project continued for several years until 1994, when Linux version 1.0 was released.
+
+The Linux kernel is licensed under the GNU general public license (GPL), which requires the source code to remain freely available.</P>
+
+                  
+                 <h2>Linux Expansion and Growth</h2>
+<p>When Linux was first released, it was considered an experimental operating system; it was something you could experiment with in the lab, but would probably never consider putting it into a production environment. Since that time, things have changed dramatically. Linux is now a mainstay operating system, especially in server rooms. Using the wide variety of network services that are available for the Linux operating system, 
+ you can configure Linux to perform almost any networking role that a competing server operating system can perform, including:</p>     
                   <ul>
-<li>Integrate the graphics processing unit (GPU) with another hardware component (e.g., the central processing unit (CPU) or motherboard).</li>
-<li>Share system memory for graphic processing.</li>
-<li>Are less expensive than dedicated video cards, but are also less powerful.</li>
-<li>Are installed in most pre-built PCs and found in most laptops. Integrated cards are also used in servers.</li>  
-                  </ul>
-        <p>Dedicated video cards:</p>
-                  <ul>
-                   <li>Are installed in an expansion slot on the motherboard.</li>
-<li>Have a GPU and a dedicated, high-speed video memory bank.</li>
-<li>Are more powerful than most integrated video cards, but are also more expensive.</li>
-<li>Are used in cryptocurrency mining.</li>
-<li>Allow multiple cards to be connected. This is called daisy chaining.</li>
-                  </ul>
+<li>File server</li>
+<li>Print server</li>
+<li>Database server</li>
+<li>Web server</li>
+<li>Email server</li>
+ </ul>
+                  <h2>Application platform	</h2>
+<p>The operating system provides a platform that applications can run on.</p>     
+               
+
+                  <h2>Hardware interface	</h2>
+<p>A key function of the operating system is to ensure that an application running on the system does not try to use an area in memory that's already in use by another application. The OS is also responsible for ensuring that an application running on the system does not monopolize the CPU, preventing other running applications on the system from using the CPU.
+</p>
+                 <h2>Data storage</h2>
+                  <p>The operating system is responsible for providing an efficient and reliable means for storing data. This is usually done using some type of storage device, such as a hard disk drive formatted with a particular file system. The file system's job is to organize the information on the hard disk in an easily retrievable format.
+</p>
+                  <h2>Security</h2>
+                  <p>The operating system is responsible for providing some degree of security for the data that's stored on its storage devices. For example, the system administrator can create rules and assign permissions that determine who can access what information on the system.</p>
 
                          <h2>Video!</h2>
   <video width="500px" height="400px" controls>
@@ -91,3 +105,8 @@
             </div>
         </div>
     </div>
+ </div>
+ <div class="sidebar"></div>
+</div>
+</body>
+</html>
