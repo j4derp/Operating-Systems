@@ -88,7 +88,7 @@ nav ul li a {
   color: #D5889E; 
   font-size: 0.8em;
   transition: all 0.3s ease;
-  border: 2px solid #D5889E;
+  border: 2px solid #c48093;
   padding: 8px 15px;
   border-radius: 25px;
   display: inline-block;
@@ -113,6 +113,10 @@ h3 {
 br {
   font-size: 20px;
 }
+
+
+
+/----NEED TO STYLE---/
 
 .page-container {
   display: flex;
@@ -146,7 +150,7 @@ br {
 
 .component-box {
   background-color: #345e7d;
-  border: 2px solid #233e52;
+  border: 2px solid #c48093;
   padding: 12px;
   border-radius: 8px;
   color: white;
@@ -200,7 +204,7 @@ br {
 }
 
 .components-nav h2 {
-  color: #345e7d;
+    color: #D5889E;
   margin-bottom: 15px;
   text-align: center;
 }
@@ -212,11 +216,11 @@ br {
 }
 
 .component-box {
-  background-color: #345e7d;
-  border: 2px solid #233e52;
+ background-color: transparent;
+  border: 2px solid #c48093;
   padding: 12px;
   border-radius: 8px;
-  color: white;
+   color: #D5889E; 
   text-align: center;
   font-weight: bold;
   transition: all 0.3s ease;
@@ -224,7 +228,7 @@ br {
 }
 
 .component-box:hover {
-  background-color: #233e52;
+   background-color: #D5889E;
   transform: translateX(5px);
   box-shadow: 0 2px 4px rgba(0,0,0,0.2);
 }
@@ -240,13 +244,13 @@ br {
 }
 
 .component-content h2 {
-  color: #345e7d;
+ color: #D5889E;
   margin: 20px 0;
 }
 
 .component-content p {
   line-height: 1.6;
-  color: #333;
+   color; #2b4257; 
 }
 
 .info-section {
@@ -273,7 +277,7 @@ br {
 .feature-list ul li {
   padding: 10px 0;
   border-bottom: 1px solid #eee;
-  color: #345e7d;
+  color; #2b4257;
 }
 
 .form-factor-card, .case-card {
@@ -281,12 +285,12 @@ br {
   padding: 20px;
   margin: 15px 0;
   border-radius: 8px;
-  border-left: 4px solid #345e7d;
+  border-left: 4px solid #c48093;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
 }
 
 .form-factor-card h3, .case-card h3 {
-  color: #345e7d;
+ color: #D5889E;
   margin-bottom: 15px;
 }
 
@@ -303,7 +307,7 @@ br {
 
 .form-factor-card ul li:before, .case-card ul li:before {
   content: "•";
-  color: #345e7d;
+ color: #D5889E;
   position: absolute;
   left: -15px;
 }
@@ -317,8 +321,8 @@ br {
 
 h2 {
   margin: 30px 0 20px;
-  color: #345e7d;
-  border-bottom: 2px solid #345e7d;
+   color: #D5889E;
+  border-bottom: 2px solid #c48093;
   padding-bottom: 10px;
 }
 
